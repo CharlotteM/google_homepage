@@ -41,6 +41,7 @@ a:link, a:visited {
   margin: auto;
   padding-top: 200px;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 #search_box {
@@ -62,10 +63,13 @@ input {
 }
 
 #footer {
+  position: fixed;
+  bottom: 0;
   background-color: #f2f2f2;
+  width: 1365px;
   height: 40px;
   border-top: 2px solid #e4e4e4;
-  margin-top: 197px;
+  margin-top: 190px;
 }
 
 #footer li {
